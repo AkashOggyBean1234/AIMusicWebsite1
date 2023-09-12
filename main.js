@@ -1,10 +1,9 @@
-song1 = "";
-song2 = "";
+song1 = "01. A Hard Day's Night.mp3";
+song2 = "Oggy and the Cockroaches.mp3";
 
 function preload()
 {
-    song1 = "01. A Hard Day's Night.mp3";
-    song2 = "Oggy and the Cockroaches.mp3";
+    loadSound(song1, song2);
 }
 
 function setup()
